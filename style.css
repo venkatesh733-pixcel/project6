@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background:rgb(0, 0, 0);
+    color: chartreuse;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-size: 3em;
+}
+.button{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(255, 0, 0);
+    color: wheat;
+    font-size: 24px;
+    font-weight: 800;
+}
+.input.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+input{
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#message{
+    display: none;
+    font-size: 2em;
+}
+#GO{
+    color: red;
+    font-size: 100px;
+}
